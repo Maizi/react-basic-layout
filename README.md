@@ -1,2 +1,3 @@
-# react-basic-layout
-Basic react layout for a new project whick uses react and redux
+# funplay-wap-view
+
+funplay移动端视图项目

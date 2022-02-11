@@ -1,0 +1,45 @@
+.marquee-top-page {
+  .marquee-top-wrapper {
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+
+    ul {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      li {
+        height: 60px;
+        font-size: 22px;
+        line-height: 60px;
+
+        .user-name {
+          width: 160px;
+          overflow: hidden;
+          color: #dfe3ea;
+          font-weight: 800;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          word-break: keep-all;
+        }
+
+        .static-tit {
+          margin: 0 8px;
+          color: #8a8f97;
+        }
+
+        .goods-name {
+          color: #fc4549;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+
+  //动画
+  .marquee-top-ami {
+    margin-top: -60px;
+    transition: all linear 0.5s;
+  }
+}
